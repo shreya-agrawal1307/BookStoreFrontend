@@ -1,0 +1,268 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#bg{
+background-image:url(C:\Users\shreyava\Downloads\book\src\Assets\bookstorebg.webp);
+height: 620px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#loginbox{
+  width: 300px;
+  height: 250px;
+  border: 1px solid rgb(75, 27, 216);
+  border-radius: 3px;
+  background-color: rgb(242, 244, 245);
+  padding: 20px;
+  margin: 20px;
+  align-items: center;
+  position: relative;
+  left:450px;
+  top: 105px;
+  box-shadow: #0e0f10;
+}
+#signupbox{
+  width: 350px;
+  height: 300px;
+  border: 1px solid rgb(75, 27, 216);
+  border-radius: 3px;
+  background-color: rgb(242, 244, 245);
+  padding: 20px;
+  margin: 20px;
+  align-items: center;
+  position:relative;
+  left:450px;
+  top: 105px;
+  box-shadow: #0e0f10;
+}
+#email{
+  height: 25px;
+  width: 250px;
+}
+#password{
+  height: 25px;
+  width: 250px;
+}
+#lbutton{
+  background-color: #0b1dec;
+  width: 200px;
+  height: 29px;
+  border-radius: 4px;
+  color:white;
+  border: none;
+  cursor: pointer;
+}
+#icon{
+  display: inline;
+}
+#btnTopSearch{
+  background: #0b1dec no-repeat center !important;
+  background-size: 20px,19px;
+  cursor: pointer;
+  position: relative;
+    top: -50px;
+    border-radius: 0 5px 5px 0;
+    left: -42px;
+    height: 34px;
+}
+#inputbar{
+  position: relative;
+  top:-50px;
+  left: -40px;
+  width: 300px;
+  height: 28px;
+}
+.navbar{
+  background-color: #61dafb;
+  height: 50px;
+  margin-top: -19px;
+}
+#navbarNavDropdown{
+  height: 50px;
+}
+.navbar-nav{
+display: inline;
+list-style: none;
+/* margin: auto;
+max-width: 100px; */
+float: none;
+line-height: 30px;
+}
+.nav-item{
+list-style: none;
+display: inline;
+position: relative;
+left:-400px;
+bottom: -10px;
+}
+#logoimage{
+  height: 70px;
+  width: 70px;
+  position: relative;
+  left:-500px;
+  top: 8px;
+}
+
+#grid{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  /* background-color: #2196F3; */
+  padding: 10px;
+  width: 850px;
+}
+#grid-item{
+  border: #282c34 solid;
+  border-radius: 5px;
+  height: 250px;
+}
+#allbooksbg{
+  height: 500px;
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/010/058/149/small/back-to-school-background-with-silhouette-of-books-feathers-school-tool-doodle-and-copy-space-area-suitable-to-place-on-content-with-that-theme-free-vector.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 0px;
+  position: relative;
+  top: -25px;
+}
+#searchbookbg{
+  background-image: url(https://media.istockphoto.com/id/638383032/photo/textbooks-stacked-on-school-desk-with-chalkboard-background.jpg?b=1&s=170667a&w=0&k=20&c=v0pEsXCm4L5g45kSSYsMmdy9frASELzGrD6bFIehczI=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:600px;
+  /* margin-top: -10px; */
+  /* content: left; */
+}
+#orderbox{
+  width: 300px;
+  height: 250px;
+  border: 1px solid rgb(75, 27, 216);
+  border-radius: 3px;
+  background-color: rgb(242, 244, 245);
+  padding: 20px;
+  margin: 20px;
+  align-items: center;
+  position: relative;
+  left:450px;
+  top: 50px;
+  /* position: fixed; */
+  box-shadow: #0e0f10;
+}
+#bdthead,#bdtcell{
+  padding: 5px;
+  text-align: left;
+}
+#bookdetailstable{
+  position: relative;
+  left:350px;
+}
+#reviewdetailstable{
+  position: relative;
+  left:350px;
+}
+#orderdetailstable{
+  position: relative;
+  left:350px;
+  border: gray solid;
+}
+#givereviewbtn{
+  position: relative;
+  left:-190px;
+  background-color: #0b1dec;
+  width: 150px;
+  height: 29px;
+  border-radius: 4px;
+  color:white;
+  border: none;
+  cursor: pointer;
+}
+#orderbg{
+  height: 550px;
+  background-image: url(https://media.istockphoto.com/id/929023224/vector/seamless-background-with-books.jpg?s=612x612&w=0&k=20&c=suJcI7JPdWMAB32Dlr3V1CPs3FCfgFkhSSuFuQN8bzw=);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#orderheading{
+  position: relative;
+  top:20px;
+}
+#detailsbg{
+  height: 550px;
+  background-image: url(https://images.unsplash.com/photo-1516979187457-637abb4f9353?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTZ8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+#reviewbg{
+  height: 550px;
+  background-image: url(https://images.unsplash.com/photo-1516979187457-637abb4f9353?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTZ8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+#reviewdiv{
+  position: relative;
+  top:100px;
+  left:-170px
+}
+#viewreviewbg{
+  height: 550px;
+  background-image: url(https://images.unsplash.com/photo-1516979187457-637abb4f9353?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTZ8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+#reviewlink{
+  position: relative;
+  top:10px;
+  left:50px
+}
+#logout{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top:-40px;
+    left: 300px;
+}
+#profilebg{
+  height:550px;
+  background-image: url(https://img.freepik.com/premium-photo/hand-holds-user-person-icon-interface-blue-background-user-symbol-your-web-site-design-logo-app-ui-banner_150455-5212.jpg);
+  background-size: cover;
+}
+#profiletable{
+  position: relative;
+  left:300px;
+  border: gray solid;
+}
